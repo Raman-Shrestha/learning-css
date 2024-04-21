@@ -1,0 +1,24 @@
+h1{
+    color: aqua;
+}
+
+p{
+    color: chartreuse;
+}
+
+button{
+    color: rgb(0, 124, 146);
+    background-color: rgb(221, 97, 25);
+}
+
+body{
+    background-color: #585651;
+}
+
+pre{
+    color: #d91190
+}
+
+h4{
+    color: #5011d9;
+}
