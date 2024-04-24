@@ -1,0 +1,22 @@
+#headingOne{
+    color: #3d58a9;
+}
+
+#headingTwo{
+    color: red;
+}
+#headingThree{
+    color: blueviolet;
+}
+
+/* h1{
+    color: green;
+} */
+
+body{
+    background-color: black;
+}
+
+#paragraph{
+    color: whitesmoke;
+}
