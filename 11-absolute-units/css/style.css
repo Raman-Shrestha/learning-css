@@ -1,0 +1,23 @@
+p{
+    font-family: cursive;
+    font-weight: 600;
+    color: whitesmoke;
+    background-color: black;
+}
+
+body{
+    background-color: grey;
+    color: rgb(177, 177, 177);
+}
+
+#unit{
+    font-size: 25px;
+}
+
+#units{
+    font-size: 13px;
+}
+
+#ultra{
+    font-size: 10px;
+}
