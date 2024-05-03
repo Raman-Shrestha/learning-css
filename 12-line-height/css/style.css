@@ -1,0 +1,25 @@
+#parah1{
+    line-height: 2px;
+}
+
+body{
+    background-color: grey;
+    color: black;
+    font-family: cursive;
+}
+
+#parah2{
+    line-height: 40px;
+}
+
+#parah3{
+    line-height: 50px;
+}
+
+h1{
+    font-family: cursive;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: #0a49f7 double underline;
+    background-color: brown;
+}
