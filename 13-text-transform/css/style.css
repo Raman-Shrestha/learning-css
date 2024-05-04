@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+#lorem0{
+    text-transform: capitalize;
+    text-decoration:  rgb(248, 248, 248) underline ;
+    color: #f55f14;
+    text-align: justify;
+}
+
+#lorem1{
+    text-transform: lowercase;
+    text-decoration:  rgb(248, 248, 248) underline ;
+    color: #1490f5;
+    text-align: justify;
+}
+
+#lorem2{
+    text-transform: uppercase;
+    text-decoration:  rgb(248, 248, 248) underline ;
+    color: #1cf514;
+    text-align: justify;
+}
+
+
+
+
+
