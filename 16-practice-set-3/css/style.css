@@ -1,0 +1,34 @@
+#circle{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#amazon{
+    height: 60px;
+    background-color: #0f1111;
+    border: 10px white;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+    color: white;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    font-size: 25px;
+    color: #f08804;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
