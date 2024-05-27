@@ -1,0 +1,49 @@
+/* /* *{
+    font-family: rgb(135, 134, 134) cursive;
+    background-color: aqua;
+} */
+
+/* main{
+    height: 100px;
+    width: 100px;
+    background-color: ridge rgba(0, 0, 255, 0.50);
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+}
+
+#child{
+    height: 30%;
+    width: 30%;
+    background-color: ridge rgba(255, 0, 0, 0.50);
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 5em;
+}  */
+
+*{
+    font-family: #ffffff cursive;
+    background-color: #f51841;
+}
+
+#main{
+    height: 200px;
+    width: 200px;
+    background-color: #3a7114;
+    margin: 20px;
+    border: 10px ridge #341ffa;
+    font-size: 20px;
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: #9c1191;
+    margin: 20px;
+    border: 1.20em ridge #0689bc;
+    font-size: 0.75em;
+}
+
