@@ -1,0 +1,46 @@
+*{
+    font-family: cursive;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black ;
+    display: inline-block;
+    text-align: center;
+}
+
+#box1{
+    position: static;
+    background-color: #6505f5;
+}
+
+#box2{
+    position: relative;
+    top: 300px;
+    left: 69px;
+    background-color: #9003fc;
+}
+
+#box3{
+    background-color: #fc034e;
+    position: absolute;
+    top: 219px;
+}
+
+#box4{
+    background-color: #03fc24;
+    position: fixed;
+    top: 0px;
+    right: 100px;
+}
+
+#box5{
+    background-color: #fc2803;
+    position: sticky;
+    top: 0px;
+}
+
+#box6{
+    background-color: #d511aa;
+}
