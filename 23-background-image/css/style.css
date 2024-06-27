@@ -1,0 +1,30 @@
+div {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    display: inline-block;
+    border: 3px solid rgb(11, 8, 8);
+}
+
+h1 {
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+* {
+    font-family: cursive;
+}
+
+#box1 {
+    background-image: url("../images/monkey.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box2 {
+    background-image: url("../images/lion.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
