@@ -1,0 +1,77 @@
+*{
+    font-family: cursive;
+    font-size: larger;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: palegreen;
+    color: blue;
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    transition: all 2s ease-in;
+}
+
+#box1:hover{
+    background-color: red;
+    color: chartreuse;
+    font-size: 30px;
+    transform: translateX(250px);
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 950px;
+    transition: all 2s ease-in;
+}
+
+#box2:hover{
+    background-color: orangered;
+    color: pink;
+    font-size: 30px;
+    transform: translateX(-250px);
+}
+
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: olive;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    transition: all 2s ease-in;
+}
+
+#box3:hover{
+    background-color: orangered;
+    color: cornflowerblue;
+    font-size: 30px;
+    transform: translateY(250px);
+}
+
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    border: 2px solid black;
+    position: absolute;
+    top: 500px;
+    left: 580px;
+    transition: all 2s ease-in;
+}
+
+#box4:hover{
+    background-color: yellowgreen;
+    color: crimson;
+    font-size: 30px;
+    transform: translateY(-250px);
+}
