@@ -1,0 +1,464 @@
+*{
+    font-family: cursive;
+    font-size: larger;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: blueviolet;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    animation: Animation 4s ease-in 0s infinite alternate;
+}
+
+@keyframes Animation {
+    0% {
+        background-color: rgb(245, 220, 220); /* Light Pink */
+        left: 0px;
+    }
+    1% {
+        background-color: rgb(255, 0, 0); /* Red */
+        left: 13.5px;
+    }
+    2% {
+        background-color: rgb(255, 165, 0); /* Orange */
+        left: 27px;
+    }
+    3% {
+        background-color: rgb(255, 255, 0); /* Yellow */
+        left: 40.5px;
+    }
+    4% {
+        background-color: rgb(0, 255, 0); /* Green */
+        left: 54px;
+    }
+    5% {
+        background-color: rgb(0, 255, 255); /* Cyan */
+        left: 67.5px;
+    }
+    6% {
+        background-color: rgb(0, 0, 255); /* Blue */
+        left: 81px;
+    }
+    7% {
+        background-color: rgb(128, 0, 128); /* Purple */
+        left: 94.5px;
+    }
+    8% {
+        background-color: rgb(255, 0, 255); /* Magenta */
+        left: 108px;
+    }
+    9% {
+        background-color: rgb(255, 105, 180); /* Hot Pink */
+        left: 121.5px;
+    }
+    10% {
+        background-color: rgb(240, 128, 128); /* Light Coral */
+        left: 135px;
+    }
+    11% {
+        background-color: rgb(255, 69, 0); /* Orange Red */
+        left: 148.5px;
+    }
+    12% {
+        background-color: rgb(255, 99, 71); /* Tomato */
+        left: 162px;
+    }
+    13% {
+        background-color: rgb(255, 140, 0); /* Dark Orange */
+        left: 175.5px;
+    }
+    14% {
+        background-color: rgb(255, 215, 0); /* Gold */
+        left: 189px;
+    }
+    15% {
+        background-color: rgb(218, 165, 32); /* Golden Rod */
+        left: 202.5px;
+    }
+    16% {
+        background-color: rgb(154, 205, 50); /* Yellow Green */
+        left: 216px;
+    }
+    17% {
+        background-color: rgb(0, 128, 0); /* Green */
+        left: 229.5px;
+    }
+    18% {
+        background-color: rgb(34, 139, 34); /* Forest Green */
+        left: 243px;
+    }
+    19% {
+        background-color: rgb(0, 255, 127); /* Spring Green */
+        left: 256.5px;
+    }
+    20% {
+        background-color: rgb(0, 255, 255); /* Cyan */
+        left: 270px;
+    }
+    21% {
+        background-color: rgb(0, 206, 209); /* Dark Turquoise */
+        left: 283.5px;
+    }
+    22% {
+        background-color: rgb(30, 144, 255); /* Dodger Blue */
+        left: 297px;
+    }
+    23% {
+        background-color: rgb(70, 130, 180); /* Steel Blue */
+        left: 310.5px;
+    }
+    24% {
+        background-color: rgb(0, 0, 139); /* Dark Blue */
+        left: 324px;
+    }
+    25% {
+        background-color: rgb(75, 0, 130); /* Indigo */
+        left: 337.5px;
+    }
+    26% {
+        background-color: rgb(138, 43, 226); /* Blue Violet */
+        left: 351px;
+    }
+    27% {
+        background-color: rgb(148, 0, 211); /* Dark Violet */
+        left: 364.5px;
+    }
+    28% {
+        background-color: rgb(153, 50, 204); /* Dark Orchid */
+        left: 378px;
+    }
+    29% {
+        background-color: rgb(186, 85, 211); /* Medium Orchid */
+        left: 391.5px;
+    }
+    30% {
+        background-color: rgb(221, 160, 221); /* Plum */
+        left: 405px;
+    }
+    31% {
+        background-color: rgb(255, 20, 147); /* Deep Pink */
+        left: 418.5px;
+    }
+    32% {
+        background-color: rgb(255, 105, 180); /* Hot Pink */
+        left: 432px;
+    }
+    33% {
+        background-color: rgb(255, 182, 193); /* Light Pink */
+        left: 445.5px;
+    }
+    34% {
+        background-color: rgb(255, 240, 245); /* Lavender Blush */
+        left: 459px;
+    }
+    35% {
+        background-color: rgb(255, 228, 225); /* Misty Rose */
+        left: 472.5px;
+    }
+    36% {
+        background-color: rgb(255, 218, 185); /* Peach Puff */
+        left: 486px;
+    }
+    37% {
+        background-color: rgb(255, 228, 181); /* Moccasin */
+        left: 499.5px;
+    }
+    38% {
+        background-color: rgb(255, 239, 213); /* Papaya Whip */
+        left: 513px;
+    }
+    39% {
+        background-color: rgb(255, 250, 205); /* Lemon Chiffon */
+        left: 526.5px;
+    }
+    40% {
+        background-color: rgb(255, 255, 224); /* Light Yellow */
+        left: 540px;
+    }
+    41% {
+        background-color: rgb(240, 255, 240); /* Honeydew */
+        left: 553.5px;
+    }
+    42% {
+        background-color: rgb(240, 255, 255); /* Azure */
+        left: 567px;
+    }
+    43% {
+        background-color: rgb(240, 248, 255); /* Alice Blue */
+        left: 580.5px;
+    }
+    44% {
+        background-color: rgb(230, 230, 250); /* Lavender */
+        left: 594px;
+    }
+    45% {
+        background-color: rgb(216, 191, 216); /* Thistle */
+        left: 607.5px;
+    }
+    46% {
+        background-color: rgb(221, 160, 221); /* Plum */
+        left: 621px;
+    }
+    47% {
+        background-color: rgb(238, 130, 238); /* Violet */
+        left: 634.5px;
+    }
+    48% {
+        background-color: rgb(255, 0, 255); /* Magenta */
+        left: 648px;
+    }
+    49% {
+        background-color: rgb(139, 0, 139); /* Dark Magenta */
+        left: 661.5px;
+    }
+    50% {
+        background-color: rgb(128, 0, 128); /* Purple */
+        left: 675px;
+    }
+    51% {
+        background-color: rgb(75, 0, 130); /* Indigo */
+        left: 688.5px;
+    }
+    52% {
+        background-color: rgb(72, 61, 139); /* Dark Slate Blue */
+        left: 702px;
+    }
+    53% {
+        background-color: rgb(106, 90, 205); /* Slate Blue */
+        left: 715.5px;
+    }
+    54% {
+        background-color: rgb(123, 104, 238); /* Medium Slate Blue */
+        left: 729px;
+    }
+    55% {
+        background-color: rgb(132, 112, 255); /* Light Slate Blue */
+        left: 742.5px;
+    }
+    56% {
+        background-color: rgb(173, 216, 230); /* Light Blue */
+        left: 756px;
+    }
+    57% {
+        background-color: rgb(176, 224, 230); /* Powder Blue */
+        left: 769.5px;
+    }
+    58% {
+        background-color: rgb(176, 196, 222); /* Light Steel Blue */
+        left: 783px;
+    }
+    59% {
+        background-color: rgb(135, 206, 235); /* Sky Blue */
+        left: 796.5px;
+    }
+    60% {
+        background-color: rgb(135, 206, 250); /* Light Sky Blue */
+        left: 810px;
+    }
+    61% {
+        background-color: rgb(70, 130, 180); /* Steel Blue */
+        left: 823.5px;
+    }
+    62% {
+        background-color: rgb(95, 158, 160); /* Cadet Blue */
+        left: 837px;
+    }
+    63% {
+        background-color: rgb(100, 149, 237); /* Cornflower Blue */
+        left: 850.5px;
+    }
+    64% {
+        background-color: rgb(0, 191, 255); /* Deep Sky Blue */
+        left: 864px;
+    }
+    65% {
+        background-color: rgb(30, 144, 255); /* Dodger Blue */
+        left: 877.5px;
+    }
+    66% {
+        background-color: rgb(0, 0, 255); /* Blue */
+        left: 891px;
+    }
+    67% {
+        background-color: rgb(0, 0, 139); /* Dark Blue */
+        left: 904.5px;
+    }
+    68% {
+        background-color: rgb(25, 25, 112); /* Midnight Blue */
+        left: 918px;
+    }
+    69% {
+        background-color: rgb(0, 0, 128); /* Navy */
+        left: 931.5px;
+    }
+    70% {
+        background-color: rgb(65, 105, 225); /* Royal Blue */
+        left: 945px;
+    }
+    71% {
+        background-color: rgb(0, 128, 128); /* Teal */
+        left: 958.5px;
+    }
+    72% {
+        background-color: rgb(0, 139, 139); /* Dark Cyan */
+        left: 972px;
+    }
+    73% {
+        background-color: rgb(0, 255, 255); /* Cyan */
+        left: 985.5px;
+    }
+    74% {
+        background-color: rgb(0, 255, 127); /* Spring Green */
+        left: 999px;
+    }
+    75% {
+        background-color: rgb(32, 178, 170); /* Light Sea Green */
+        left: 1012.5px;
+    }
+    76% {
+        background-color: rgb(0, 250, 154); /* Medium Spring Green */
+        left: 1026px;
+    }
+    77% {
+        background-color: rgb(0, 128, 0); /* Green */
+        left: 1039.5px;
+    }
+    78% {
+        background-color: rgb(34, 139, 34); /* Forest Green */
+        left: 1053px;
+    }
+    79% {
+        background-color: rgb(50, 205, 50); /* Lime Green */
+        left: 1066.5px;
+    }
+    80% {
+        background-color: rgb(0, 255, 0); /* Lime */
+        left: 1080px;
+    }
+    81% {
+        background-color: rgb(127, 255, 0); /* Chartreuse */
+        left: 1093.5px;
+    }
+    82% {
+        background-color: rgb(124, 252, 0); /* Lawn Green */
+        left: 1107px;
+    }
+    83% {
+        background-color: rgb(173, 255, 47); /* Green Yellow */
+        left: 1120.5px;
+    }
+    84% {
+        background-color: rgb(154, 205, 50); /* Yellow Green */
+        left: 1134px;
+    }
+    85% {
+        background-color: rgb(85, 107, 47); /* Dark Olive Green */
+        left: 1147.5px;
+    }
+    86% {
+        background-color: rgb(107, 142, 35); /* Olive Drab */
+        left: 1161px;
+    }
+    87% {
+        background-color: rgb(128, 128, 0); /* Olive */
+        left: 1174.5px;
+    }
+    88% {
+        background-color: rgb(189, 183, 107); /* Dark Khaki */
+        left: 1188px;
+    }
+    89% {
+        background-color: rgb(255, 255, 0); /* Yellow */
+        left: 1201.5px;
+    }
+    90% {
+        background-color: rgb(255, 215, 0); /* Gold */
+        left: 1215px;
+    }
+    91% {
+        background-color: rgb(238, 232, 170); /* Pale Golden Rod */
+        left: 1228.5px;
+    }
+    92% {
+        background-color: rgb(250, 250, 210); /* Light Golden Rod Yellow */
+        left: 1242px;
+    }
+    93% {
+        background-color: rgb(255, 239, 213); /* Papaya Whip */
+        left: 1255.5px;
+    }
+    94% {
+        background-color: rgb(255, 228, 181); /* Moccasin */
+        left: 1269px;
+    }
+    95% {
+        background-color: rgb(255, 222, 173); /* Navajo White */
+        left: 1282.5px;
+    }
+    96% {
+        background-color: rgb(255, 218, 185); /* Peach Puff */
+        left: 1296px;
+    }
+    97% {
+        background-color: rgb(255, 218, 185); /* Peach Puff */
+        left: 1309.5px;
+    }
+    98% {
+        background-color: rgb(255, 240, 245); /* Lavender Blush */
+        left: 1323px;
+    }
+    99% {
+        background-color: rgb(255, 182, 193); /* Light Pink */
+        left: 1336.5px;
+    }
+    100% {
+        background-color: rgb(255, 105, 180); /* Hot Pink */
+        left: 1350px;
+    }
+    101% {
+        background-color: rgb(255, 0, 255); /* Magenta */
+        left: 1350px;
+    }
+    102% {
+        background-color: rgb(238, 130, 238); /* Violet */
+        left: 1350px;
+    }
+    103% {
+        background-color: rgb(221, 160, 221); /* Plum */
+        left: 1350px;
+    }
+    104% {
+        background-color: rgb(216, 191, 216); /* Thistle */
+        left: 1350px;
+    }
+    105% {
+        background-color: rgb(230, 230, 250); /* Lavender */
+        left: 1350px;
+    }
+    106% {
+        background-color: rgb(240, 248, 255); /* Alice Blue */
+        left: 1350px;
+    }
+    107% {
+        background-color: rgb(240, 255, 255); /* Azure */
+        left: 1350px;
+    }
+    108% {
+        background-color: rgb(240, 255, 240); /* Honeydew */
+        left: 1350px;
+    }
+    109% {
+        background-color: rgb(255, 255, 224); /* Light Yellow */
+        left: 1350px;
+    }
+    110% {
+        background-color: rgb(255, 250, 205); /* Lemon Chiffon */
+        left: 1350px;
+    }
+}
+
