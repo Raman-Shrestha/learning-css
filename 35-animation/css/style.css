@@ -1,0 +1,42 @@
+*{
+    font-family: cursive;
+    font-size: larger;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: peru;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    top: 240px;
+    /* left: 650px; */
+    /* animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimate 3s ease-in infinite alternate;
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: peru;
+        left: 0px ;
+    }
+    to {
+        background-color: dodgerblue;
+        left: 1300px;
+        color: whitesmoke;
+    }
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+}
+
